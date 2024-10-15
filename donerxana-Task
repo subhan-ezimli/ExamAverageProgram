@@ -1,0 +1,38 @@
+
+Qeyd ! proyektdə Enum, Access Modifier (incapsulation), switch=Case və if-Şərt operatorları, overloading(polimorpfizm) istifadə olunmalıdır
+məsələ dönər hazırlanması və satılması və satışlar zamanı hesabatın qeyd olunmasıdır. konkret bir dönərxana məsələsidir.
+corek novu -> tendir, baton
+et -> mal eti, toyuq eti
+
+addMeat(et novu,double gr)
+addBread(coreh novu,int count)
+
+
+cook(); -> toyuq eti baton 1 dene
+-yəni Cook() methodu özü içi boş olanı çağıranda default 1 dənə baton çörəyində dönər hazırlanmalıdır.
+
+cook(int count) -> toyuq eti baton count dene
+-əgər say verilibsə baton çörəyində verilən say qədər toyuq dönəri hazırlanmalıdır.
+
+cook(et novu,corey novu) -> et novu corey novu 1 dene
+-verilən ət tipində və verilən çörək tipidə 1 dənə dönər hazırlanmalıdır.
+
+cook(et novu,coren novu,int count) et novu corey novu count dene
+-verilən ət tipində və verilən çörək tipidə verilən say qədər dönər hazırlanmalıdır.
+
+1 dene dönər hazırlanması üçün ingredient-> 150 qr et və 1 eded çörək lazımdır
+
+ Dönərlərin qiyməti
+- toyuq əti baton çörəyində -3azn
+-toyuq əto təndir çörəyində-3.50azn
+
+-mal əti baton çörəyində-3.90 azn
+-mal əti təndir çörəyində-4.30 azn
+
+Repoting(hesabat üçün ) 
+SellingDonerCount(nəqədər dönər satılıb) 
+UsedTendirCount(neçə dənə təndir çörəyi istifadə olunub)
+UsedBatonCount(neçə dənə baton çörəyi istifadə olunub)
+MalEtiGram(neçə qram mal əti istifadə olunub)
+ToyuqEtiGram( neçə qram toyuq əti istifadə olunub)
+Income( ümumi gəlir nəqədərdir)
